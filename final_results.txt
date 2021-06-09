@@ -1,0 +1,234 @@
+
+avg pm25: 77.67774839440877
+when above pm25 average: 1388days
+DIR : N prop : 8.06%
+DIR : NE prop : 4.17%
+DIR : NNE prop : 3.60%
+DIR : ENE prop : 5.54%
+DIR : E prop : 10.6%
+DIR : SE prop : 9.29%
+DIR : SSE prop : 4.25%
+DIR : ESE prop : 11.5%
+DIR : S prop : 1.08%
+DIR : SSW prop : 0.28%
+DIR : WSW prop : 0.93%
+DIR : SW prop : 0.57%
+DIR : W prop : 3.17%
+DIR : NW prop : 15.4%
+DIR : NNW prop : 10.2%
+DIR : WNW prop : 11.0%
+DIR : CALM prop : 0.0%
+
+when below pm25 average: 1258days
+DIR : N prop : 7.07%
+DIR : NE prop : 3.41%
+DIR : NNE prop : 2.62%
+DIR : ENE prop : 5.08%
+DIR : E prop : 11.0%
+DIR : SE prop : 12.5%
+DIR : SSE prop : 5.24%
+DIR : ESE prop : 11.7%
+DIR : S prop : 2.38%
+DIR : SSW prop : 0.31%
+DIR : WSW prop : 1.03%
+DIR : SW prop : 0.71%
+DIR : W prop : 2.14%
+DIR : NW prop : 13.1%
+DIR : NNW prop : 7.71%
+DIR : WNW prop : 11.6%
+DIR : CALM prop : 2.06%
+
+avg pm10: 40.64752550056668
+when above pm10 average: 1670days
+DIR : N prop : 7.18%
+DIR : NE prop : 4.31%
+DIR : NNE prop : 3.41%
+DIR : ENE prop : 5.20%
+DIR : E prop : 10.4%
+DIR : SE prop : 7.48%
+DIR : SSE prop : 3.77%
+DIR : ESE prop : 11.5%
+DIR : S prop : 1.13%
+DIR : SSW prop : 0.29%
+DIR : WSW prop : 0.89%
+DIR : SW prop : 0.53%
+DIR : W prop : 2.75%
+DIR : NW prop : 16.2%
+DIR : NNW prop : 10.0%
+DIR : WNW prop : 13.3%
+DIR : CALM prop : 1.37%
+
+when below pm10 average: 976days
+DIR : N prop : 8.29%
+DIR : NE prop : 2.97%
+DIR : NNE prop : 2.66%
+DIR : ENE prop : 5.53%
+DIR : E prop : 11.4%
+DIR : SE prop : 16.5%
+DIR : SSE prop : 6.35%
+DIR : ESE prop : 11.8%
+DIR : S prop : 2.66%
+DIR : SSW prop : 0.30%
+DIR : WSW prop : 1.12%
+DIR : SW prop : 0.81%
+DIR : W prop : 2.56%
+DIR : NW prop : 11.0%
+DIR : NNW prop : 7.37%
+DIR : WNW prop : 7.99%
+DIR : CALM prop : 0.30%
+
+avg o3: 40.64752550056668
+when above o3 average: 1095days
+DIR : N prop : 9.95%
+DIR : NE prop : 4.38%
+DIR : NNE prop : 3.28%
+DIR : ENE prop : 6.94%
+DIR : E prop : 11.0%
+DIR : SE prop : 11.2%
+DIR : SSE prop : 4.84%
+DIR : ESE prop : 12.9%
+DIR : S prop : 1.46%
+DIR : SSW prop : 0.27%
+DIR : WSW prop : 0.91%
+DIR : SW prop : 0.54%
+DIR : W prop : 2.00%
+DIR : NW prop : 12.5%
+DIR : NNW prop : 9.58%
+DIR : WNW prop : 7.57%
+DIR : CALM prop : 0.45%
+
+when below o3 average: 1551days
+DIR : N prop : 5.93%
+DIR : NE prop : 3.41%
+DIR : NNE prop : 3.03%
+DIR : ENE prop : 4.19%
+DIR : E prop : 10.7%
+DIR : SE prop : 10.5%
+DIR : SSE prop : 4.64%
+DIR : ESE prop : 10.7%
+DIR : S prop : 1.86%
+DIR : SSW prop : 0.32%
+DIR : WSW prop : 1.03%
+DIR : SW prop : 0.70%
+DIR : W prop : 3.15%
+DIR : NW prop : 15.6%
+DIR : NNW prop : 8.63%
+DIR : WNW prop : 14.0%
+DIR : CALM prop : 1.35%
+
+avg no2: 7.1027578390630906
+when above no2 average: 1193days
+DIR : N prop : 6.53%
+DIR : NE prop : 4.44%
+DIR : NNE prop : 3.60%
+DIR : ENE prop : 5.61%
+DIR : E prop : 10.2%
+DIR : SE prop : 7.46%
+DIR : SSE prop : 3.85%
+DIR : ESE prop : 11.9%
+DIR : S prop : 1.25%
+DIR : SSW prop : 0.25%
+DIR : WSW prop : 0.83%
+DIR : SW prop : 0.41%
+DIR : W prop : 2.76%
+DIR : NW prop : 15.9%
+DIR : NNW prop : 9.13%
+DIR : WNW prop : 14.1%
+DIR : CALM prop : 1.50%
+
+when below no2 average: 1453days
+DIR : N prop : 8.46%
+DIR : NE prop : 3.30%
+DIR : NNE prop : 2.75%
+DIR : ENE prop : 5.09%
+DIR : E prop : 11.3%
+DIR : SE prop : 13.6%
+DIR : SSE prop : 5.43%
+DIR : ESE prop : 11.4%
+DIR : S prop : 2.06%
+DIR : SSW prop : 0.34%
+DIR : WSW prop : 1.10%
+DIR : SW prop : 0.82%
+DIR : W prop : 2.61%
+DIR : NW prop : 13.0%
+DIR : NNW prop : 8.94%
+DIR : WNW prop : 9.08%
+DIR : CALM prop : 0.55%
+
+avg so2: 7.1027578390630906
+when above so2 average: 981days
+DIR : N prop : 6.82%
+DIR : NE prop : 5.40%
+DIR : NNE prop : 2.34%
+DIR : ENE prop : 4.79%
+DIR : E prop : 9.37%
+DIR : SE prop : 6.93%
+DIR : SSE prop : 3.87%
+DIR : ESE prop : 11.0%
+DIR : S prop : 1.22%
+DIR : SSW prop : 0.20%
+DIR : WSW prop : 0.61%
+DIR : SW prop : 0.30%
+DIR : W prop : 4.07%
+DIR : NW prop : 15.8%
+DIR : NNW prop : 9.37%
+DIR : WNW prop : 15.8%
+DIR : CALM prop : 2.03%
+
+when below so2 average: 1665days
+DIR : N prop : 8.04%
+DIR : NE prop : 2.88%
+DIR : NNE prop : 3.60%
+DIR : ENE prop : 5.64%
+DIR : E prop : 11.7%
+DIR : SE prop : 13.1%
+DIR : SSE prop : 5.22%
+DIR : ESE prop : 12.0%
+DIR : S prop : 1.98%
+DIR : SSW prop : 0.36%
+DIR : WSW prop : 1.20%
+DIR : SW prop : 0.84%
+DIR : W prop : 1.86%
+DIR : NW prop : 13.4%
+DIR : NNW prop : 8.82%
+DIR : WNW prop : 8.76%
+DIR : CALM prop : 0.36%
+
+avg co: 6.572346052134492
+when above co average: 1020days
+DIR : N prop : 5.68%
+DIR : NE prop : 4.50%
+DIR : NNE prop : 3.03%
+DIR : ENE prop : 4.70%
+DIR : E prop : 10.0%
+DIR : SE prop : 7.25%
+DIR : SSE prop : 4.01%
+DIR : ESE prop : 10.8%
+DIR : S prop : 0.78%
+DIR : SSW prop : 0.29%
+DIR : WSW prop : 1.07%
+DIR : SW prop : 0.68%
+DIR : W prop : 3.62%
+DIR : NW prop : 16.5%
+DIR : NNW prop : 9.90%
+DIR : WNW prop : 14.8%
+DIR : CALM prop : 2.05%
+
+when below co average: 1626days
+DIR : N prop : 8.79%
+DIR : NE prop : 3.38%
+DIR : NNE prop : 3.19%
+DIR : ENE prop : 5.71%
+DIR : E prop : 11.3%
+DIR : SE prop : 13.0%
+DIR : SSE prop : 5.16%
+DIR : ESE prop : 12.1%
+DIR : S prop : 2.27%
+DIR : SSW prop : 0.30%
+DIR : WSW prop : 0.92%
+DIR : SW prop : 0.61%
+DIR : W prop : 2.09%
+DIR : NW prop : 12.9%
+DIR : NNW prop : 8.48%
+DIR : WNW prop : 9.22%
+DIR : CALM prop : 0.30%
