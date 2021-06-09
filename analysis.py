@@ -36,6 +36,29 @@ def actdic(dict, st):
     print('error when adding to dictionnary: ' + st)
     return 0
 
+def quicksummary(dictabove, dictbelow, count, type):
+    #we consider that the wind comes from China if it comes from
+    #North to South South West
+    dirs = ['N', 'NW', 'NWN', 'NNW', 'W', 'SW', 'SSW', 'WSW']
+    print('\nbased on the studies on '+ str(count)+ ' days, we can say that, regarding '+ type)
+
+    fromChina = 0
+
+    for i in dictabove:
+        (x, y) = i
+        if x in dirs:
+            fromChina +=y
+    
+    print("when days are more polluted than average, wind comes from China "+ str(fromChina/count * 100)[:4]+'% of the times')
+
+    fromChina = 0
+    for i in dictbelow:
+        (x, y) = i
+        if x in dirs:
+            fromChina +=y
+    
+    print("when days are less polluted than average, wind comes from China "+ str(fromChina/count * 100)[:4]+'% of the times')
+
 
 
 def showsstats(an):
@@ -61,7 +84,6 @@ def showsstats(an):
 
     dictabove = dictcopy[:]
     dictbelow = dictcopy[:]
-    print('\navg pm25: ' + str(an.pm25avg))
 
     countabove = 0
     countbelow = 0
@@ -70,14 +92,10 @@ def showsstats(an):
             countabove += actdic(dictabove ,i.windapprdir) 
         else:
             countbelow += actdic(dictbelow, i.windapprdir)
-    print('when above pm25 average: '+ str(countabove)+ 'days')
-    listpp(dictabove, countabove)
-    print("\nwhen below pm25 average: " + str(countbelow) + 'days')
-    listpp (dictbelow, countbelow)
+    quicksummary(dictabove, dictbelow, countabove+countbelow, 'pm25')
 
     dictabove = dictcopy[:]
     dictbelow = dictcopy[:]
-    print('\navg pm10: ' + str(an.pm10avg))
 
     countabove = 0
     countbelow = 0
@@ -86,14 +104,10 @@ def showsstats(an):
             countabove += actdic(dictabove ,i.windapprdir) 
         else:
             countbelow += actdic(dictbelow, i.windapprdir)
-    print('when above pm10 average: '+ str(countabove)+ 'days')
-    listpp(dictabove, countabove)
-    print("\nwhen below pm10 average: " + str(countbelow) + 'days')
-    listpp (dictbelow, countbelow)
+    quicksummary(dictabove, dictbelow, countabove+countbelow, 'pm10')
 
     dictabove = dictcopy[:]
     dictbelow = dictcopy[:]
-    print('\navg o3: ' + str(an.pm10avg))
 
     countabove = 0
     countbelow = 0
@@ -102,14 +116,10 @@ def showsstats(an):
             countabove += actdic(dictabove ,i.windapprdir) 
         else:
             countbelow += actdic(dictbelow, i.windapprdir)
-    print('when above o3 average: '+ str(countabove)+ 'days')
-    listpp(dictabove, countabove)
-    print("\nwhen below o3 average: " + str(countbelow) + 'days')
-    listpp (dictbelow, countbelow)
+    quicksummary(dictabove, dictbelow, countabove+countbelow, 'o3')
 
     dictabove = dictcopy[:]
     dictbelow = dictcopy[:]
-    print('\navg no2: ' + str(an.so2avg))
 
     countabove = 0
     countbelow = 0
@@ -118,14 +128,10 @@ def showsstats(an):
             countabove += actdic(dictabove ,i.windapprdir) 
         else:
             countbelow += actdic(dictbelow, i.windapprdir)
-    print('when above no2 average: '+ str(countabove)+ 'days')
-    listpp(dictabove, countabove)
-    print("\nwhen below no2 average: " + str(countbelow) + 'days')
-    listpp (dictbelow, countbelow)
+    quicksummary(dictabove, dictbelow, countabove+countbelow, 'no2')
 
     dictabove = dictcopy[:]
     dictbelow = dictcopy[:]
-    print('\navg so2: ' + str(an.so2avg))
 
     countabove = 0
     countbelow = 0
@@ -134,14 +140,10 @@ def showsstats(an):
             countabove += actdic(dictabove ,i.windapprdir) 
         else:
             countbelow += actdic(dictbelow, i.windapprdir)
-    print('when above so2 average: '+ str(countabove)+ 'days')
-    listpp(dictabove, countabove)
-    print("\nwhen below so2 average: " + str(countbelow) + 'days')
-    listpp (dictbelow, countbelow)
+    quicksummary(dictabove, dictbelow, countabove+countbelow, 'so2')
 
     dictabove = dictcopy[:]
     dictbelow = dictcopy[:]
-    print('\navg co: ' + str(an.coavg))
 
     countabove = 0
     countbelow = 0
@@ -150,12 +152,9 @@ def showsstats(an):
             countabove += actdic(dictabove ,i.windapprdir) 
         else:
             countbelow += actdic(dictbelow, i.windapprdir)
-    print('when above co average: '+ str(countabove)+ 'days')
-    listpp(dictabove, countabove)
-    print("\nwhen below co average: " + str(countbelow) + 'days')
-    listpp (dictbelow, countbelow)
+    quicksummary(dictabove, dictbelow, countabove+countbelow, 'co')
 
-
+    
 
 x = analysis(importjson('output.json'))
 showsstats(x)
