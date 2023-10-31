@@ -3,6 +3,17 @@
 Some people used to say that pollution spikes in Korea are due to China's industrial activities.
 Is it really the case? As a scientist, I couldn't trust people who couldn't bring reliable sources.
 
+## DISCLAIMER
+
+**As you can see, the codebase is atrocious to read or maintain.**
+
+This is due to 3 main reasons:
+- I was a beginner at that time. I wasn't familiar with 
+- I made this project in 3 hours
+- I was in a quite heavy hangover
+
+Please do not judge me, and consider it as it is: a funny side project to keep me busy during an afternoon,.
+
 ## Sources
 I used an open database containing the air quality in Daegu for a little bit less than 3000 days (at aquicn.org).
 I retro engineered an archive meteorological API (api.weather.com) to find my datas about wind speed and wind directions.
